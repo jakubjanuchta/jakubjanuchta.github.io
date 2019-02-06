@@ -1,0 +1,1541 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin-ext');
+
+/*font-family: 'Oswald', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+html {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*HEADER*/
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/panorama1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+
+section.intro {
+  color: white;
+  text-shadow: 0 0 200px #222;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div.wrapper {
+  position: absolute;
+}
+
+section h1.head {
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+  margin: 20% 0 0 0;
+}
+
+section p {
+  display: inline-block;
+  font-size: 25px;
+  width: 100%;
+  line-height: 45px;
+}
+
+header img {
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  height: 65%;
+}
+
+
+/*ABOUT ME SECTION*/
+
+
+section.about {
+  padding: 0 8% 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15vh auto 15vh;
+}
+
+h1.aboutme {
+  font-size: 35px;
+  border-bottom: 4px solid #E26600;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+p.desc {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+
+/*MY SKILLS SECTION*/
+section.allskills {
+  background-color: #93A29B;
+  width: 100%;
+}
+
+section.skills {
+  padding: 10vh 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1.myskills {
+  font-size: 35px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #E26600;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+div.skill {
+  float: left;
+  width: 50%;
+  padding: 10% 0;
+}
+
+div.skill:nth-child(4) {
+  width: 100%;
+
+}
+
+
+h2.skname {
+  width: 50%;
+  margin: 3% auto;
+}
+
+div.skill img {
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*PORTFOLIO*/
+
+
+section.portfolio {
+  text-align: center;
+  margin: 10vh auto;
+}
+
+h1.porthead {
+  font-size: 35px;
+  line-height: 150%;
+  text-transform: uppercase;
+  border-bottom: 4px solid #E26600;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 10vh;
+}
+
+section.project {
+  height: 100vh;
+  padding-bottom: 20vh;
+  padding-top: 3vh;
+  margin-bottom: 20vh;
+}
+
+section.project:nth-child(even) {
+  background-color: #DCBF85;
+  color: #60594D;
+}
+
+section.project:nth-child(odd) {
+  background-color: #60594D;
+  color: #DCBF85;
+}
+
+section.project:last-child {
+  margin-bottom: 0;
+}
+
+div.projectimg {
+  width: 90vw;
+  height: 46%;
+  padding: 5vh;
+  margin: 0 auto;
+  background-image: url(../img/project_sample.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projectimg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.project:nth-child(2) div.projectimg {
+  background-image: url(../portfolio/ProjektDisco/1.png);
+  border: 2px solid black;
+}
+
+.project:nth-child(3) div.projectimg {
+  background-image: url(../portfolio/kalkulator/1.png);
+  border: 2px solid black;
+}
+
+.project:nth-child(4) div.projectimg {
+  background-image: url(../portfolio/ToDoList/1.png);
+  border: 2px solid black;
+}
+
+div.projectdesc {
+  padding: 3vh 7vw;
+}
+
+div.projectdesc h2 {
+  font-size: 25px;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  text-transform: uppercase;
+}
+
+div.projectdesc p {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+}
+
+/*FREE TIME SECTION*/
+
+section.freetime {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15vh auto 15vh;
+}
+
+h1.freeheader {
+  font-size: 35px;
+  line-height: 150%;
+  text-transform: uppercase;
+  border-bottom: 4px solid #E26600;
+  margin-left: 27%;
+  margin-right: 27%;
+  margin-bottom: 10vh;
+}
+
+
+section.frees {
+  background-color: white;
+}
+
+
+div.free {
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10vh;
+}
+
+div.free:nth-child(1) {
+  background-image: url(../img/travel.jpg);
+}
+
+div.free:nth-child(2) {
+  background-image: url(../img/moto.jpg);
+}
+
+div.free:nth-child(3) {
+  background-image: url(../img/programming.jpg)
+}
+
+div.free:nth-child(4) {
+  background-image: url(../img/workout.jpg)
+}
+
+h2.freetxt {
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  line-height: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*CONTACT SECTION*/
+
+
+section.contacts {
+  background-color: black;
+}
+
+h1.contact {
+  font-size: 35px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 4px solid #E26600;
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-bottom: 10vh;
+  padding-top: 8vh;
+  color: white;
+}
+
+form.contactme {
+  height: 80vh;
+  font-family: arial;
+}
+
+form.contactme input {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+  width: 80vw;
+  padding: 1%;
+  margin-bottom: 5vh;
+  border: 1px solid #E26600;
+}
+
+form.contactme textarea {
+  display: block;
+  margin: 0 auto;
+  height: 30vh;
+  width: 80vw;
+  font-size: 22px;
+  line-height: 25px;
+  padding: 2% 1%;
+  border: 1px solid #E26600;
+}
+
+button.send {
+  display: block;
+  height: 10vh;
+  width: 80vw;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #E26600;
+  background-color: black;
+  margin: 5vh auto;
+  border: 3px solid #E26600;
+  transition: 0.3s;
+}
+
+button.send:hover {
+  border-color: white;
+  color: black;
+  background-color: white;
+}
+
+section.social {
+  color: white;
+}
+
+section.social div {
+  width: 80%;
+  font-size: 20px;
+  line-height: 10vh;
+  background-repeat: no-repeat;
+  background-size: auto 84%;
+  margin: 0 auto;
+  padding-left: 29vw;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+div.mail {
+  background-image: url(../img/mail.png);
+}
+
+div.facebook {
+  background-image: url(../img/facebook.png);
+}
+
+div.instagram {
+  background-image: url(../img/instagram.png);
+}
+
+div.twitter {
+  background-image: url(../img/twitter.png);
+}
+
+footer {
+  background-color: #E26600;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  ;
+  line-height: 5vh;
+}
+
+@media(orientation: portrait) and (min-width: 360px) {
+
+  /*    HEADER  */
+
+  header img {
+    bottom: -5%;
+    left: -40%;
+    height: 70%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  /*MY SKILLS SECTION  */
+
+  /*  PORTFOLIO SECTION*/
+
+  div.projectdesc h2 {
+    font-size: 28px;
+  }
+
+  div.projectdesc p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /*  FREE TIME SECTION*/
+
+
+}
+
+@media(orientation:portrait) and (min-width: 375px) {
+
+
+  /*    HEADER  */
+
+  h1.porthead {
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  /*MY SKILLS SECTION  */
+
+  /*  PORTFOLIO SECTION*/
+
+  div.projectimg {
+    width: 88vw;
+  }
+
+  div.projectdesc h2 {
+    font-size: 30px;
+  }
+
+  div.projectdesc p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /*  FREE TIME SECTION*/
+
+  div.free {
+    height: 40vh;
+  }
+
+  /*  CONTACT SECTION*/
+
+  section.social div {
+    padding-left: 35vw;
+  }
+
+}
+
+@media(orientation: portrait) and (min-width: 768px) {
+
+
+  h1 {
+    font-size: 55px !important;
+    line-height: 150% !important;
+
+  }
+
+  /*    HEADER  */
+
+  section h1.head {
+    font-size: 110px;
+    margin: 12% 0 0 0;
+  }
+
+  section p {
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  header img {
+    left: -20%;
+    height: 70%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  section.about {
+    padding: 0 4%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10vh auto 10vh;
+  }
+
+  h2.skname {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  h1.aboutme {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 8%;
+  }
+
+  /*MY SKILLS SECTION  */
+
+  section.skills {
+    overflow: hidden;
+  }
+
+  h1.myskills {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2vh;
+  }
+
+  /*  PORTFOLIO SECTION*/
+
+  h1.porthead {
+    margin-left: 29%;
+    margin-right: 29%;
+  }
+
+  div.projectimg {
+    width: 90vw;
+    padding-top: 35vh;
+    background-size: contain;
+  }
+
+
+  div.projectdesc h2 {
+    font-size: 48px;
+  }
+
+  div.projectdesc p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  /*  FREE TIME SECTION*/
+
+
+  section.frees {
+    font-size: 0;
+  }
+
+  div.free {
+    float: left;
+    height: 30vh;
+    width: 46vw;
+    margin: 2vw;
+    margin-top: 7vh;
+    margin-bottom: 0;
+  }
+
+  div.free:nth-of-type(odd) {
+    margin-left: 3vw;
+    margin-right: 1vw;
+  }
+
+  div.free:nth-of-type(even) {
+    margin-left: 1vw;
+    margin-right: 3vw;
+  }
+
+  /*  CONTACT SECTION*/
+
+  form.contactme input {
+    font-size: 25px;
+    line-height: 33px;
+    border: 2px solid #E26600;
+  }
+
+  form.contactme textarea {
+    font-size: 28px;
+    line-height: 32px;
+    padding: 2% 2%;
+    border: 2px solid #E26600;
+  }
+
+  button.send {
+    font-size: 25px;
+  }
+
+  section.social div {
+    font-size: 35px;
+    line-height: 10vh;
+    padding-left: 25vw;
+  }
+
+}
+
+@media(orientation: portrait) and (min-width: 1024px) {
+
+
+  h1 {
+    font-size: 65px !important;
+    line-height: 150% !important;
+  }
+
+  /*    HEADER  */
+
+  section h1.head {
+    font-size: 140px;
+  }
+
+  section p {
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  header img {
+    left: -20%;
+    height: 70%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  h1.aboutme {
+    padding-bottom: 0;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 6%;
+  }
+
+  p.desc {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  /*MY SKILLS SECTION  */
+
+  section.skills {
+    margin: 0 0;
+    padding: 0;
+    padding-bottom: 8vh;
+
+  }
+
+  h1.myskills {
+    line-height: 200%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3vh;
+    padding-top: 9vh;
+  }
+
+  div.skill {
+    float: left;
+    width: 33%;
+    padding: 7% 0;
+  }
+
+  div.skill:nth-child(4) {
+    width: 33%;
+  }
+
+
+  h2.skname:nth-child(2) {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.skill:nth-child(4) h2.skname {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.skill img {
+    width: 30vw;
+  }
+
+  /*  PORTFOLIO SECTION*/
+
+  h1.porthead {
+    padding-bottom: 0;
+    margin-left: 32%;
+    margin-right: 32%;
+    line-height: 200%;
+  }
+
+  section.project {
+    padding-top: 5vh
+  }
+
+  div.projectimg {
+    width: 100%;
+    height: 50%;
+    padding: 15%;
+  }
+
+  div.projectdesc h2 {
+    font-size: 60px;
+  }
+
+  div.projectdesc p {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  /*  FREE TIME SECTION*/
+
+
+
+}
+
+@media(orientation: landscape) and (min-width:533px) {
+
+  h1 {
+    font-size: 35px;
+    line-height: 150%;
+  }
+
+  /*    HEADER  */
+
+  div.wrapper {
+    left: 30%
+  }
+
+  section h1.head {
+    font-size: 60px;
+  }
+
+  section p {
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  header img {
+    bottom: -10%;
+    left: -13%;
+    height: 95%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+
+  h1.aboutme {
+    padding-bottom: 1%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 8%;
+  }
+
+
+  /*MY SKILLS SECTION  */
+
+  section.skills {
+    margin: 0 0;
+    padding: 0 0;
+    padding-bottom: 8vh;
+    overflow: hidden;
+
+  }
+
+  h1.myskills {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3vh;
+    padding-top: 9vh;
+  }
+
+  div.skill {
+    float: left;
+    width: 33%;
+    padding: 7% 0;
+  }
+
+  div.skill:nth-of-type(odd) {
+    margin: 0;
+  }
+
+  div.skill:nth-child(4) {
+    width: 33%;
+  }
+
+
+  h2.skname {
+    width: 30vw;
+    margin-top: 6%;
+  }
+
+
+  div.skill img {
+    width: 25vw;
+  }
+
+
+  /*  PORTFOLIO SECTION*/
+
+
+  section.portfolio {
+    text-align: center;
+    margin: 10vh auto;
+  }
+
+  h1.porthead {
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+
+  section.project {
+    position: relative;
+    height: 100vh;
+    padding-bottom: 20vh;
+    padding-top: 3vh;
+    margin-bottom: 20vh;
+  }
+
+
+  section.project:nth-child(even) {
+    background-color: white;
+  }
+
+  section.project:nth-child(odd) {
+    background-color: white;
+  }
+
+  div.projectimg {
+    position: absolute;
+    z-index: 3;
+    height: 45vh;
+    width: 45vw;
+    top: 7vh;
+  }
+
+  div.projectdesc {
+    position: absolute;
+    z-index: 2;
+    top: 35vh;
+    bottom: 0;
+    padding: 0;
+  }
+
+  div.projectdesc h2 {
+    font-size: 25px;
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+  }
+
+  div.projectdesc p {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0 5vh 5vh;
+    text-align: left;
+  }
+
+  section.project:nth-child(even) div.projectimg {
+    left: 7vh;
+
+  }
+
+  section.project:nth-child(odd) div.projectimg {
+    right: 7vh;
+
+  }
+
+  section.project:nth-child(even) div.projectdesc {
+    background-color: #DCBF85;
+    left: 35vw;
+    right: 10vw;
+  }
+
+  section.project:nth-child(odd) div.projectdesc {
+    background-color: #60594D;
+    right: 35vw;
+    left: 10vw;
+  }
+
+  section.project:nth-child(even) div.projectdesc h2 {
+    padding: 6vh 5vw 6vh 15vw;
+  }
+
+  section.project:nth-child(odd) div.projectdesc h2 {
+    padding: 6vh 15vw 6vh 5vw;
+  }
+
+  /*  FREE TIME SECTION*/
+
+  section.frees {
+    margin-top: 15vh;
+    font-size: 0;
+  }
+
+  div.free {
+    float: left;
+    height: 48vh;
+    width: 38vw;
+    margin-top: 0;
+  }
+
+  h2.freetxt {
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+  }
+
+  div.free:nth-of-type(odd) {
+    margin-left: 9vw;
+    margin-right: 3vw;
+  }
+
+  div.free:nth-of-type(even) {
+    margin-left: 3vw;
+    margin-right: 9vw;
+  }
+
+  /*  CONTACT SECTION*/
+
+  form.contactme {
+    height: 80vh;
+    width: 40vw;
+    padding-left: 5vw;
+    margin: 0;
+    font-family: arial;
+    float: left;
+  }
+
+  form.contactme input {
+    width: 45vw;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 1%;
+  }
+
+  form.contactme textarea {
+    width: 45vw;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 1%;
+  }
+
+  button.send {
+    height: 13vh;
+    width: 45vw;
+    font-size: 14px;
+    margin: 5vh auto;
+    border: 3px solid #E26600;
+    transition: 0.3s;
+  }
+
+  button.send:hover {
+    border-color: white;
+    color: black;
+    background-color: white;
+  }
+
+  section.social {
+    float: right;
+    width: 45vw;
+    color: white;
+  }
+
+  section.social div {
+    width: 80%;
+    font-size: 18px;
+    line-height: 10vh;
+    background-repeat: no-repeat;
+    background-size: auto 84%;
+    margin: 0 auto;
+    padding-left: 13vw;
+    padding-top: 2vh;
+    padding-bottom: 7vh;
+  }
+
+}
+
+@media(orientation: landscape) and (min-width:731px) {
+
+  /*    HEADER  */
+
+  section h1.head {
+    font-size: 70px;
+  }
+
+  section p {
+    font-size: 35px;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  section.about {
+    padding: 0 4%;
+  }
+
+  h1.aboutme {
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-bottom: 5%;
+  }
+
+  /*MY SKILLS SECTION  */
+
+  h2.skname {
+    margin-top: 5%;
+  }
+
+  div.skill img {
+    width: 20vw;
+  }
+
+  /*  PORTFOLIO SECTION*/
+
+  div.projectimg {
+    height: 55vh;
+    width: 45vw;
+    top: 0;
+  }
+
+  div.projectdesc h2 {
+    font-size: 35px;
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+  }
+
+  div.projectdesc p {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 7vh 5vh;
+  }
+
+  /*  FREE TIME SECTION*/
+
+  /*  CONTACT SECTION*/
+
+  section.social div {
+    font-size: 21px;
+    line-height: 10vh;
+    background-size: auto 75%;
+    padding-left: 11vw;
+  }
+
+
+}
+
+@media(orientation: landscape) and (min-width:1024px) {
+
+  h1 {
+    font-size: 55px !important;
+    line-height: 150% !important;
+
+  }
+
+  div.wrapper {
+    top: 15%;
+  }
+
+  section h1.head {
+    font-size: 120px;
+  }
+
+  section p {
+    font-size: 55px;
+    line-height: 85px;
+  }
+
+  header img {
+    left: -23%;
+    height: 95%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  section.about {
+    padding: 0 4%;
+    max-width: 85%;
+  }
+
+  h1.aboutme {
+    border-bottom: 4px solid #E26600;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  p.desc {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  /*MY SKILLS SECTION  */
+
+  h1.myskills {
+    margin-left: 21%;
+    margin-right: 21%;
+
+  }
+
+  div.skill {
+    font-size: 25px;
+
+  }
+
+  /*  PORTFOLIO SECTION*/
+
+  div.projectimg {
+    height: 47vh;
+    width: 48vw;
+    top: 5vh;
+  }
+
+  div.projectdesc h2 {
+    font-size: 45px;
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+  }
+
+  div.projectdesc p {
+    font-size: 28px;
+    line-height: 33px;
+    padding: 0 7vh 5vh;
+  }
+
+  /*  FREE TIME SECTION*/
+
+  h2.freetxt {
+    font-size: 40px;
+    line-height: 75px;
+    height: 75px;
+  }
+
+  /*  CONTACT SECTION*/
+
+  form.contactme input {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  form.contactme textarea {
+    font-size: 30px;
+    line-height: 35px;
+    padding: 2% 1%;
+  }
+
+  button.send {
+    height: 11vh;
+    font-size: 25px;
+  }
+
+  section.social div {
+    width: 90%;
+    font-size: 30px;
+    line-height: 11vh;
+    background-size: auto 79%;
+    padding-left: 15vw;
+    padding-bottom: 6vh;
+  }
+
+}
+
+@media(orientation: landscape) and (min-width:1280px) {
+
+  /*    HEADER  */
+  h1 {
+    font-size: 55px !important;
+    line-height: 150% !important;
+  }
+
+  div.wrapper {
+    top: 20%;
+    left: 40%
+  }
+
+  header img {
+    left: -15%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  h1.aboutme {
+    border-bottom: 4px solid #E26600;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-bottom: 6%;
+  }
+
+  p.desc {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  /*MY SKILLS SECTION  */
+
+  /*  PORTFOLIO*/
+
+  h1.porthead {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+
+  section.project {
+    position: relative;
+    display: inline-block;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /*    overflow:auto;*/
+  }
+
+  div.projectimg {
+    position: absolute;
+    z-index: 3;
+    height: 45vh;
+    top: 15vh;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+  }
+
+  div.projectdesc {
+    position: absolute;
+    z-index: 2;
+    height: 50%;
+    padding: 0;
+  }
+
+
+  section.project:nth-child(even) div.projectimg {
+    left: 35vh;
+    right: 35vh;
+  }
+
+
+  section.project:nth-child(odd) div.projectimg {
+    left: 35vh;
+    right: 35vh;
+  }
+
+  section.project:nth-child(even) div.projectdesc {
+    background-color: #DCBF85;
+    left: 5vw;
+    right: 55vw;
+    top: 45vh;
+    bottom: 15vh;
+  }
+
+  section.project:nth-child(odd) div.projectdesc {
+    background-color: #60594D;
+    right: 5vw;
+    left: 55vw;
+    top: 45vh;
+    bottom: 15vh;
+  }
+
+  section.project:nth-child(even) div.projectdesc h2 {
+    padding: 6vh 20vw 0 3vw;
+    margin-bottom: 0;
+  }
+
+  section.project:nth-child(odd) div.projectdesc h2 {
+    padding: 6vh 3vw 0 20vw;
+    margin-bottom: 0;
+  }
+
+  section.project:nth-child(even) div.projectdesc p {
+    padding: 4vh 5vw 6vh 5vw;
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  section.project:nth-child(odd) div.projectdesc p {
+    padding: 4vh 5vw 6vh 5vw;
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  section.project:nth-child(even) div.projectimg:hover {
+    left: 25vh;
+    right: 25vh;
+    top: 5vh;
+    height: 65vh;
+    width: 68vw;
+  }
+
+
+  section.project:nth-child(odd) div.projectimg:hover {
+    left: 25vh;
+    right: 25vh;
+    top: 5vh;
+    height: 65vh;
+    width: 68vw;
+  }
+
+  /*  FREE TIME SECTION*/
+
+  section.frees {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  h1.freeheader {
+    margin-top: 50vh;
+  }
+
+  div.free {
+    float: left;
+    height: 55vh;
+    width: 36%;
+  }
+
+  h2.freetxt {
+    position: static;
+    height: 100%;
+    font-size: 60px;
+    line-height: 55vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.25s;
+  }
+
+  div.free:nth-of-type(odd) {
+    float: left;
+    margin-left: 9%;
+    margin-right: 4%;
+  }
+
+  div.free:nth-of-type(even) {
+    float: right;
+    margin-left: 4%;
+    margin-right: 9%;
+  }
+
+  div.free:hover {
+    background-size: 200%;
+
+  }
+
+  div.free:hover h2.freetxt {
+    opacity: 1;
+  }
+
+  /*  CONTACT SECTION*/
+
+
+  section.allcontacts {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  form.contactme {
+    width: 45%;
+  }
+
+  form.contactme input {
+    width: 100%;
+  }
+
+  form.contactme textarea {
+    width: 100%;
+  }
+
+  button.send {
+    width: 100%;
+  }
+
+  section.social {
+    width: 45%;
+  }
+
+  section.social div {
+    font-size: 40px;
+    background-size: auto 83%;
+    padding-left: 25%;
+    padding-bottom: 5vh;
+  }
+
+}
+
+@media(orientation: landscape) and (min-width:1600px) {
+
+  /*    HEADER  */
+
+  div.wrapper {
+    top: -5%;
+    left: 30%;
+  }
+
+  section h1.head {
+    font-size: 200px;
+  }
+
+  section p {
+    font-size: 90px;
+    line-height: 110px;
+  }
+
+  header img {
+    height: 100%;
+  }
+
+  /*  ABOUT ME SECTION*/
+
+  section.about {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 12vh auto 18vh;
+    max-width: 1440px;
+  }
+
+  h1.aboutme {
+    font-size: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+  }
+
+  p.desc {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  /*MY SKILLS SECTION  */
+
+  section.skills {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  h2.skname:nth-child(2) {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.skill:nth-child(4) h2.skname {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*  PORTFOLIO SECTION*/
+
+  h1.porthead {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 0;
+  }
+
+  section.project {
+    height: 50vh;
+    max-width: 1440px;
+  }
+
+  div.projectimg {
+    height: 35vh;
+    width: 55vh;
+    top: 20vh;
+  }
+
+  div.projectdesc {
+    height: 35vh;
+    width: 49vh;
+  }
+
+  div.projectdesc h2 {
+    font-size: 40px;
+  }
+
+
+  section.project:nth-child(even) div.projectimg {
+    left: 35vh;
+    right: auto;
+  }
+
+
+  section.project:nth-child(odd) div.projectimg {
+    left: auto;
+    right: 35vh;
+  }
+
+  section.project:nth-child(even) div.projectdesc {
+    left: 3vh;
+    right: auto;
+  }
+
+  section.project:nth-child(odd) div.projectdesc {
+    right: 3vh;
+    left: auto;
+  }
+
+  section.project:nth-child(even) div.projectdesc h2 {
+    padding: 4vh 15vh 0 3vh;
+    margin-bottom: 0;
+  }
+
+  section.project:nth-child(odd) div.projectdesc h2 {
+    padding: 4vh 3vh 0 15vh;
+    margin-bottom: 0;
+  }
+
+  section.project:nth-child(even) div.projectdesc p {
+    padding: 3vh 4vh 3vh 4vh;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  section.project:nth-child(odd) div.projectdesc p {
+    padding: 3vh 4vh 3vh 4vh;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  section.project:nth-child(even) div.projectimg:hover {
+    left: 20vh;
+    top: 5vh;
+    height: 65vh;
+    width: 85vh;
+  }
+
+
+  section.project:nth-child(odd) div.projectimg:hover {
+    left: auto;
+    right: 20vh;
+    top: 5vh;
+    height: 65vh;
+    width: 85vh;
+  }
+
+  /*  FREE TIME SECTION*/
+
+
+}
