@@ -30,7 +30,7 @@ const numberPress = function () {
     if (content != '' && sign == '' && counter > 0) {
         return 0;
     }
-    if (content < 10) {
+    if (content < 10 || content == '.') {
         console.log(content)
         resultDial.textContent += content;
     }
@@ -96,6 +96,7 @@ six.addEventListener('click', numberPress)
 seven.addEventListener('click', numberPress)
 eight.addEventListener('click', numberPress)
 nine.addEventListener('click', numberPress)
+dot.addEventListener('click', numberPress)
 plus.addEventListener('click', signPress)
 minus.addEventListener('click', signPress)
 divide.addEventListener('click', signPress)
